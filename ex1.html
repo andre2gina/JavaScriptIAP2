@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Roboto'
+rel='stylesheet'>
+<title>Tema 1</title>
+</head> 
+<style>
+ * {
+ box-sizing: border-box;
+ }
+ div,
+ p {
+ margin: 0;
+ padding: 0;
+ }
+ body {
+ font-family: "Roboto";
+ }
+ </style>
+<body>
+<div style="width: 89mm; height: 51mm; background-color: #FFF; padding-top:
+10mm; border: 1px solid #BBB;">
+<div id = "nume"style="padding-left: 10mm; font-size: 16px; font-weight: bold;
+color: #444;"></div>
+<div id = "functie"style="padding-left: 10mm; font-size: 11px; font-style: italic;
+color: #AAA;"></div>
+<div style ="padding-left: 10mm; padding-top: 15px; width: 28mm;
+display: inline-block; font-size: 10px; font-weight: bold; color: #444; textalign: left;">Phone</div>
+<div id = "telefon"style="width: 58mm; padding-top: 15px; display: inline-block;
+font-size: 10px; color: #888; text-align: left;"></div>
+<div style="padding-left: 10mm; padding-top: 5px; width: 28mm;
+display: inline-block; font-size: 10px; font-weight: bold; color: #444; textalign: left;">Email</div>
+<div id ="email"style="width: 58mm; padding-top: 5px; display: inline-block;
+font-size: 10px; color: #888; text-align: left;"></div>
+<div style="padding-left: 10mm; padding-top: 5px; width: 28mm;
+display: inline-block; font-size: 10px; font-weight: bold; color: #444; textalign: left;">Website</div>
+<div id ="site"style="width: 58mm; padding-top: 5px; display: inline-block;
+font-size: 10px; color: #888; text-align: left;"></div>
+</div>
+
+<script>
+"use strict";
+ let nume = "Andrea Pal";
+ let functie = "Assistant manager";
+ let telefon = "+(40) 057548982";
+ let email = "apal6498@gmail.com";
+ let site = "github.com/aplimh";
+document.querySelector("#nume").innerHTML = nume;
+document.querySelector("#functie").innerHTML = functie;
+document.querySelector("#telefon").innerHTML = telefon;
+document.querySelector("#email").innerHTML = email;
+document.querySelector("#site").innerHTML = site;
+
+ </script>
+</body>
+</html>
+
+
